@@ -3,14 +3,34 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!--BBD's Krita Script Starter, Feb 2018 -->
-<head><title>Extension Template Documentation</title>
+
+<head>
+  <title>Extension Template Documentation</title>
 </head>
+
 <body>
-<h3>Extension template documentation</h3>
-Tell people about what your script does here.
-This is an html document so you can format it with html tags.
-<h3>Usage</h3>
-Tell people how to use your script here.
+  <h3>Export on save</h3>
+
+  A krita plugin to help export from .kra to .png automatically on save
+  This will help game dev folks where you can save in Krita, then have your asset ready immediately on your favorite
+  game engine as .png format
+
+  <h3>Usage</h3>
+  Just import and enable this plugin to use. Note that the export settings are as follow
+
+  <ul>
+    <li>
+      alpha=True</li>
+    <li>
+      compression=3
+    </li>
+    <li>
+      indexed=False
+    </li>
+  </ul>
+
+  <strong> This plugin is only tested on Krita(x64) Windows version 5.2.0 </strong>
 
 </body>
+
 </html>
